@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./css/custom.css">
+  <link rel="icon" href="./img/fav.ico" type="image/gif" sizes="16x16">
+  <title>Sniper</title>
+</head>
+
+<body>
+  <section class="splash">
+    <h1>Welcome to the world of sniping.</h1>
+  </section>
+
+  <section class="pages">
+    <div class="first">
+      <h1 class="header">Find the Sniper</h1>
+      <div class="spotlight"></div>
+      <button class="btn" onclick="goToSecond()">Next mission</button>
+    </div>
+    <div class="second">
+      <div class="focus"></div>
+      <h1 class="header">Find the person in yellow cap</h1>
+      <button class="btn" onclick="goToThird()">Next mission</button>
+      <button class="back-btn" onclick="goBack()">Previous mission</button>
+    </div>
+    <div class="third">
+      <div class="snipe"></div>
+      <h1 class="header">Kill the president</h1>
+      <button class="back-btn" onclick="goBackSecond()">Previous mission</button>
+    </div>
+    <div class="footer">
+      <h1>Hold left click to focus</h1>
+    </div>
+  </section>
+
+  <script src="./js/custom.js"></script>
+</body>
+
+</html>
