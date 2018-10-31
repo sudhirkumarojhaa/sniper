@@ -7,7 +7,7 @@ document.querySelector(".pages").style.display = "none";
 setTimeout(function() {
   document.querySelector(".splash").style.display = "none";
   document.querySelector(".pages").style.display = "block";
-}, 2000);
+}, 4000);
 
 //DOM load event
 window.addEventListener("DOMContentLoaded", () => {
